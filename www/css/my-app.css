@@ -1,0 +1,72 @@
+.navbar {
+  border-bottom: none;
+  background: #2667b2;
+  color: #fff;
+}
+.statusbar-overlay{
+  background: #2667b2; 
+}
+body{
+  background: -moz-linear-gradient(left, #190013 0%, #666 100%);
+  background: -webkit-gradient(linear, left top, right top, color-stop(0%,#190013), color-stop(100%,#666));
+  background: -webkit-linear-gradient(left, #190013 0%,#666 100%);
+  background: -o-linear-gradient(left, #190013 0%,#6666 100%);
+  background: -ms-linear-gradient(left, #190013 0%,#666 100%);
+  background: linear-gradient(to right, #190013 0%,#666 100%);
+}
+.panel .page, .panel .pages, .panel {
+  background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+.panel .list-block ul {
+  background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+  border: medium none;
+}
+.content-block-inner:before,
+.content-block-inner:after,
+.list-block ul:before, 
+.list-block ul:after{
+display:none;
+}
+.panel .list-block .item-link:active{background-color:#5884aa;}
+.panel .list-block .item-link .item-inner{background:none;border-bottom:0px;}
+.panel .list-block .item-title{color:#fafafa;}
+.panel .list-block i{color:#fafafa;font-size: 24px;}
+.panel .list-block .item-after{margin-right: -15px;}
+
+.panel .item-media img {
+width: 48px;
+height: 48px;
+border-radius: 24px;
+}
+.keyboard{
+    margin: 0px auto;
+    max-width: 209px;
+}
+div[class*="col-"] {
+  padding: 5px;
+}
+.row {
+  margin-bottom: 5px;
+}
+.keyboardtext{
+  width: 30px;
+  color: grey;
+  margin-left: -20px;
+  font-size: 10px;
+  margin-top: 13px;
+  position: absolute;
+}
+.callbuttonicon{
+  color: white !important;
+  font-size: 34px;
+}
+.iconBackspace{
+    color: #2667b2;
+    font-size: 32px;
+}
+.iconBackspace.active-state {
+    color: #007aff;
+} 
+.button.button-big{
+    height: 49px;
+}

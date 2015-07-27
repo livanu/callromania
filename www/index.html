@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <title>My App</title>
+    <!-- Path to Framework7 Library CSS-->
+    <link rel="stylesheet" href="css/framework7.ios.min.css">
+  
+    <!-- Path to Framework7 iOS related color styles -->
+    <link rel="stylesheet" href="css/framework7.ios.colors.min.css">
+    <link rel="stylesheet" href="css/ionicons.min.css">
+    <!-- Path to your custom app styles-->
+    <link rel="stylesheet" href="css/my-app.css">
+  </head>
+  <body>
+    <!-- Status bar overlay for fullscreen mode-->
+    <div class="statusbar-overlay"></div>
+    <!-- Panels overlay-->
+    <div class="panel-overlay"></div>
+    <!-- Left panel with reveal effect-->
+    <div class="panel panel-left panel-reveal">
+      <div class="content-block">
+        <div class="list-block">
+        <ul>
+            <li class="item-content list-panel-lipeala close-panel item-link">
+                <div class="item-media"><i class="icon ion-ios-person"></i></div>
+                <div class="item-inner">
+                <div class="item-title">Contul meu</div>
+                </div>
+            </li>
+            <li class="item-content list-panel-noutati close-panel item-link">
+                <div class="item-media"><i class="icon ion-ios-telephone"></i></div>
+                <div class="item-inner">
+                <div class="item-title">Istoric apeluri</div>
+                 <div class="item-after notificari"></div>
+                </div>
+            </li>
+            <li class="item-content list-panel-mylipeli close-panel item-link">
+                <div class="item-media"><i class="icon ion-ios-people"></i></div>
+                <div class="item-inner">
+                    <div class="item-title">Contacte</div>
+                    <div class="item-after nrLipeli"></div>
+                </div>
+            </li>
+            <li class="item-content list-panel-mesaje close-panel item-link">
+                <div class="item-media"><i class="icon ion-ios-email"></i></div>
+                <div class="item-inner">
+                    <div class="item-title">Mesaje</div>
+                    <div class="item-after nrMesaje"></div>
+                </div>
+            </li>
+            <li class="item-content list-panel-vizitatori close-panel item-link">
+                <div class="item-media"><i class="icon ion-ios-keypad"></i></div>
+                <div class="item-inner">
+                <div class="item-title">Tastatură</div>
+                <div class="item-after nrVizitatori"></div>
+                </div>
+            </li>
+            <li class="item-content list-panel-forum close-panel item-link">
+                <div class="item-media"><i class="icon ion-ios-box"></i></div>
+                <div class="item-inner">
+                <div class="item-title">Credit gratuit</div>
+                </div>
+            </li>
+            <li class="item-content list-panel-cont close-panel item-link">
+                <div class="item-media"><i class="icon ion-ios-medkit"></i></div>
+                <div class="item-inner">
+                <div class="item-title">Suport</div>
+                </div>
+            </li>
+           
+        </ul>
+        </div>
+      </div>
+    </div>
+  
+    <!-- Views-->
+    <div class="views">
+      <!-- Your main view, should have "view-main" class-->
+      <div class="view view-main">
+        <!-- Top Navbar-->
+        <div class="navbar theme-white">
+          <div class="navbar-inner">
+            <div class="left">
+              <a href="#" class="link icon-only open-panel"> <i class="icon icon-bars"></i></a>
+            </div>  
+            <div class="center sliding">Sună acum</div>
+            
+          </div>
+        </div>
+        <!-- Pages, because we need fixed-through navbar and toolbar, it has additional appropriate classes-->
+        <div class="pages navbar-through toolbar-through">
+          <!-- Page, data-page contains page name-->
+          <div data-page="index" class="page">
+            <!-- Scrollable page content-->
+            <div class="page-content">
+               <div class="content-block">
+  
+                <div class="keyboard">
+                    <div class="row">
+                      <div class="col-33"><a href="#" class="button button-big button-round">1</a></div>
+                      <div class="col-33"><a href="#" class="button button-big button-round">2<span class="keyboardtext">ABC</span></a></div>
+                      <div class="col-33"><a href="#" class="button button-big button-round">3<span class="keyboardtext">DEF</span></a></div>
+                    </div>
+                      <div class="row">
+                      <div class="col-33"><a href="#" class="button button-big button-round">4<span class="keyboardtext">GHI</span></a></div>
+                      <div class="col-33"><a href="#" class="button button-big button-round">5<span class="keyboardtext">JKL</span></a></div>
+                      <div class="col-33"><a href="#" class="button button-big button-round">6<span class="keyboardtext">MNO</span></a></div>
+                    </div>
+                    <div class="row">
+                      <div class="col-33"><a href="#" class="button button-big button-round">7<span class="keyboardtext">PQRS</span></a></div>
+                      <div class="col-33"><a href="#" class="button button-big button-round">8<span class="keyboardtext">TUV</span></a></div>
+                      <div class="col-33"><a href="#" class="button button-big button-round">9<span class="keyboardtext">WXYZ</span></a></div>
+                    </div>
+                    <div class="row">
+                        <div class="col-33"><a href="#" class="button button-big button-round">*</a></div>
+                        <div class="col-33"><a href="#" class="button button-big button-round">0<span class="keyboardtext">+</span></a></div>
+                        <div class="col-33"><a href="#" class="button button-big button-round">#</a></div>
+                    </div>
+                    <div class="row"> 
+                        <div class="col-25"></div>
+                        <div class="col-50"><a href="#" class="button button-big button-fill button-round color-green"><i class="icon ion-ios-telephone callbuttonicon"></i></a></div> 
+                        <div class="col-25"><a href="#" class="link icon-only iconBackspace"> <i class="icon ion-backspace"></i></a></div>
+                    </div> 
+                </div>   
+               </div>
+            </div>
+          </div>
+        </div>
+       
+      </div>
+    </div>
+    <!-- Path to Framework7 Library JS-->
+    <script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" src="js/framework7.min.js"></script>
+    <!-- Path to your app js-->
+    <script type="text/javascript" src="js/my-app.js"></script>
+    <script>
+    	window.onload = function(){
+  			document.addEventListener("deviceready", onDeviceReady, false);
+		}
+		function onDeviceReady() {
+		// your device ready logic here
+		 	window.plugins.webviewcolor.change('#FFFFFF')
+                        StatusBar.styleLightContent();
+		}
+    </script>
+    
+  </body>
+</html>
